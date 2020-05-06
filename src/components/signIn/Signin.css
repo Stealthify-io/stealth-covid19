@@ -1,0 +1,15 @@
+.text_sign{
+    width: 270px;
+    height: 49px;
+    font-family: TeX Gyre Adventor;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 49px;
+    text-align : center;
+    letter-spacing: -0.01em;
+    color: #FFF5F2;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

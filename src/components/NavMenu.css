@@ -1,0 +1,16 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+
+}
+.btn-danger{
+background: #16100D;
+border: 2px solid #CE4930;
+box-sizing: border-box;
+border-radius: 3px;
+}
+.input-group{
+  width : 300px;
+}
+

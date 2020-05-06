@@ -1,0 +1,143 @@
+/* .landing {
+    background-color: #16100d;
+    background-image: url("../login/stealth.jpg");
+    height: 100%; 
+  } */
+  
+  .landing-container {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+  
+  .landing-jumbotron {
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 64px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .landing-jumbotron-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin-bottom: 60px;
+  }
+  
+  .landing-jumbotron-info h1 {
+    color: #fff5f2;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 63px;
+    line-height: 1.2em;
+    letter-spacing: -2.4px;
+  }
+  
+  .landing-jumbotron-info-copy {
+    margin-bottom: 20px;
+    color: #fff5f2;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+  }
+  
+  em {
+    font-style: normal;
+    color: #f68248;
+  }
+  
+  .landing-jumbotron-img {
+    width: 30%;
+  }
+  
+  .landing-button a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ce4930;
+    color: white;
+    cursor: pointer;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0;
+    height: 45px;
+    padding: 0px 30px;
+    border-radius: 3px;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+  }
+  
+  .landing-details {
+    margin: 0 auto 80px;
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .landing-details-card {
+    width: 40%;
+  }
+  
+  .landing-details-card-img {
+    height: 238px;
+    width: 100%;
+  }
+  .landing-details-card-img img {
+    height: 100%;
+  }
+  
+  .landing-details-card p {
+    color: #fff5f2;
+    font-size: 18px;
+  }
+  
+  .landing-get-started {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .landing-get-started h3 {
+    color: #fff5f2;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 32px;
+    line-height: 1.2em;
+    letter-spacing: -0.4px;
+    font-weight: 600;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .landing-jumbotron-info {
+      max-width: 100%;
+    }
+    .landing-jumbotron-info h1 {
+      font-size: 36px;
+      text-align: center;
+    }
+    .landing-button {
+      text-align: center;
+    }
+    .landing-jumbotron-img {
+      text-align: center;
+      width: 100%;
+    }
+    .landing-details {
+      margin-bottom: 0;
+    }
+    .landing-details-card {
+      text-align: center;
+      width: 100%;
+      margin-bottom: 36px;
+    }
+    .landing-get-started h3 {
+      margin-top: 0;
+      font-size: 24px;
+    }
+  }
